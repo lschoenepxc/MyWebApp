@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyWebApp.Pages;
 
-public class PrivacyModel : PageModel
+public class ImpressumModel : PageModel
 {
-    private readonly ILogger<PrivacyModel> _logger;
+    private readonly ILogger<ImpressumModel> _logger;
 
-    public PrivacyModel(ILogger<PrivacyModel> logger)
+    public ImpressumModel(ILogger<ImpressumModel> logger)
     {
         _logger = logger;
     }
